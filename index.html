@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <script src="https://kit.fontawesome.com/0d5c7d1c7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="tools">
+        <button class="tool" data-tool="select"><i class="fas fa-mouse-pointer fa-2x"></i></button>
+        <button class="tool" data-tool="square"><i class="fas fa-square fa-2x"></i></button>
+        <button class="tool" data-tool="circle"><i class="fas fa-circle fa-2x"></i></button>
+        <button class="tool" data-tool="line"><i class="fas fa-slash fa-2x"></i></button>
+        <button class="tool" data-tool="debug-state"><i class="fas fa-terminal"></i></button>
+    </div>
+    <div id="canvas-wrapper">
+        <canvas class="canvas" id="background"></canvas>
+        <canvas class="canvas" id="foreground"></canvas>
+        <canvas class="canvas" id="active"></canvas>
+        <canvas class="canvas" id="temp"></canvas>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
